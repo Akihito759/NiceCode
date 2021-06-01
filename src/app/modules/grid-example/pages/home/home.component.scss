@@ -1,0 +1,14 @@
+.filters-panel{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.filters-panel > * {
+  margin: 10px;
+}
+
+:host{
+  flex-grow: 1;
+  flex-direction: column;
+}
